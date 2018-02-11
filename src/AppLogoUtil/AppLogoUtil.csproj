@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net461</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ImageProcessor" Version="2.6.0" />
+<!--    <PackageReference Include="ImageResizer" Version="4.2.0" />-->
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Generators\">
+    </Folder>
+  </ItemGroup>
+</Project>
