@@ -143,6 +143,18 @@ namespace AppLogoUtil.Generators
                 },
                 new IconRegistration
                 {
+                    Height = 50,
+                    Width = 50,
+                    ProjectPath = "Assets.xcassets/AppIcon.appiconset/Icon-Small-50x50@1x.png"
+                },
+                new IconRegistration
+                {
+                    Height = 100,
+                    Width = 100,
+                    ProjectPath = "Assets.xcassets/AppIcon.appiconset/Icon-Small-50x50@2x.png"
+                },
+                new IconRegistration
+                {
                     Height = 76,
                     Width = 76,
                     ProjectPath = "Resources/AppIcon@1x.png"

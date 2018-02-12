@@ -23,7 +23,7 @@ namespace AppLogoUtil.Generators
 
         public void GenerateIcons(string projectPath, string iconPath)
         {
-            if (!File.Exists(projectPath))
+            if (!Directory.Exists(projectPath))
                 throw new FileNotFoundException($"The file {Path.GetFileName(projectPath)} could not be found.");
             if (!File.Exists(iconPath))
                 throw new FileNotFoundException($"The file {Path.GetFileName(iconPath)} could not be found");
@@ -64,6 +64,20 @@ namespace AppLogoUtil.Generators
             var outputPath = Path.Combine(projectPath, icon.ProjectPath);
             //var settings = new ResizeSettings(icon.Width, icon.Height, FitMode.Carve, "png");
             //ImageBuilder.Current.Build(iconPath, outputPath, settings);
+            using (var inStream = File.Open(iconPath, FileMode.Open))
+            using (var outStream = File.Create(outputPath))
+            using (ImageFactory imageFactory = new ImageFactory())
+            {
+                // Load, resize, set the format, and quality and save an image.
+                imageFactory.Load(inStream)
+                            .Resize(new Size((int)icon.Width, (int)icon.Height))
+                            .Format(new PngFormat())
+                            .Quality(100)
+                            .Save(outStream);
+
+                // Use the outStream.
+                // E.g. byte[] resizedImage = outStream.ToArray();
+            }
         }
 
         protected abstract IReadOnlyList<IconRegistration> GetPlatformIcons();
