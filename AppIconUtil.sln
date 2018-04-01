@@ -5,11 +5,11 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5BD84424-19A5-45E1-ACEE-E56642A2C145}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppLogoUtil", "src\AppLogoUtil\AppLogoUtil.csproj", "{6B7D4A99-C1E6-476B-B896-8ADE76B8F4D2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppIconUtil", "src\AppIconUtil\AppIconUtil.csproj", "{6B7D4A99-C1E6-476B-B896-8ADE76B8F4D2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{967D6E74-77CC-431E-9176-D12D386F3AAF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppLogoUtil.Tests", "tests\AppLogoUtil.Tests\AppLogoUtil.Tests.csproj", "{DD310CE9-9559-41A6-8558-23EFACF07D19}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppIconUtil.Tests", "tests\AppIconUtil.Tests\AppIconUtil.Tests.csproj", "{DD310CE9-9559-41A6-8558-23EFACF07D19}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

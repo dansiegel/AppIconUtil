@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace AppLogoUtil.Generators
+namespace AppIconUtil.Generators
 {
     public class IconGeneratorCollection : IEnumerable<IPlatformIconGenerator>
     {

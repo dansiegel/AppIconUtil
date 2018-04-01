@@ -1,5 +1,5 @@
 ﻿using System;
-namespace AppLogoUtil.Generators
+namespace AppIconUtil.Generators
 {
     public interface IPlatformIconGenerator
     {

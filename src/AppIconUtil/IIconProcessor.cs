@@ -1,5 +1,5 @@
 ﻿using System;
-namespace AppLogoUtil
+namespace AppIconUtil
 {
     public interface IIconProcessor
     {

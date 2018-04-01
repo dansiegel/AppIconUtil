@@ -1,4 +1,4 @@
-﻿namespace AppLogoUtil
+﻿namespace AppIconUtil
 {
     public enum Platform
     {

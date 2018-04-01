@@ -1,4 +1,4 @@
-﻿namespace AppLogoUtil.Generators
+﻿namespace AppIconUtil.Generators
 {
     public struct PlatformGeneratorFactory
     {

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using AppLogoUtil.Generators;
+using AppIconUtil.Generators;
 
-namespace AppLogoUtil
+namespace AppIconUtil
 {
     public class IconProcessor : IIconProcessor
     {

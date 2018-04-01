@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace AppLogoUtil.Generators
+namespace AppIconUtil.Generators
 {
     public sealed class AndroidIconGenerator : PlatformGeneratorBase
     {

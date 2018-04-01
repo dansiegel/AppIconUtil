@@ -6,7 +6,7 @@ using System.Linq;
 using ImageProcessor;
 using ImageProcessor.Imaging.Formats;
 
-namespace AppLogoUtil.Generators
+namespace AppIconUtil.Generators
 {
     public abstract class PlatformGeneratorBase : IPlatformIconGenerator
     {
