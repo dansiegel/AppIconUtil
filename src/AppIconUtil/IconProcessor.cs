@@ -39,6 +39,8 @@ namespace AppIconUtil
                             pair.Key == Platform.Any
                             select pair.Value).FirstOrDefault();
 
+            if (iconPath == null) return;
+
             generator.GenerateIcons(path, iconPath);
         }
 
