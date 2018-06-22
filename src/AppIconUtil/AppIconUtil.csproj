@@ -5,8 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="ImageProcessor" Version="2.6.0" />
-<!--    <PackageReference Include="ImageResizer" Version="4.2.0" />-->
+    <PackageReference Include="ImageProcessor" Version="2.6.2.25" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Generators\">
