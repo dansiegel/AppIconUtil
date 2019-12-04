@@ -1,14 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net461</TargetFramework>
+    <TargetFramework>net472</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="ImageProcessor" Version="2.7.0.100" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Generators\">
-    </Folder>
-  </ItemGroup>
+
 </Project>
